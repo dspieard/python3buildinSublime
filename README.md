@@ -1,9 +1,8 @@
 Python3 build in Sublime
 =========================
 Make sure you have Python3 installed on your system.
+This works for Mac, Linux and Windows
 
-Mac
-----
 Go to **Tools > Build System > New Build System**.
 
 Rename the file to "Python3.sublime-build" and change the code to:
@@ -24,13 +23,21 @@ print(sys.version)
 ``` 
 Save the file, press **CTRL-b** and it shows the correct version.
 
-If it doesn't work you could use the complete path in the build. To change the build, you'll have to change the file manually on your system by going to: **~/Library/Application Support/Sublime Text 3/Packages**
-Check your Python3 path with `type -a python3`. Add the path to the buildfile (so for example change python3 to /usr/bin/python3).
+If it doesn't work you could use the complete path in the build. To change the build, you'll have to change the file manually on your system by going to: 
 
-Linux
------
-wip
+``` 
+Linux: ~/.config/sublime-text-3/Packages
+OS X: ~/Library/Application Support/Sublime Text 3/Packages
+Windows Regular Install: C:\Users\YourUserName\AppData\Roaming\Sublime Text 3\Packages
 
-Windows
---------
-wip
+``` 
+Check your Python3 path with:
+```
+Lunx: which python3
+OS X: type -a python3 
+Windows: where python3
+```
+
+Add the path to the buildfile (so for example change python3 to /usr/bin/python3).
+
+
