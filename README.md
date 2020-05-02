@@ -22,7 +22,7 @@ To try it out:
 import sys
 print(sys.version)
 ``` 
-Save the file and press **CTRL-b** and it shows the correct version.
+Save the file, press **CTRL-b** and it shows the correct version.
 
 If it doesn't work you could use the complete path in the build. To change the build, you'll have to change the file manually on your system by going to: **~/Library/Application Support/Sublime Text 3/Packages**
 Check your Python3 path with `type -a python3`. Add the path to the buildfile (so for example change python3 to /usr/bin/python3).
