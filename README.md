@@ -28,7 +28,7 @@ If it doesn't work you could use the complete path in the build. To change the b
 ``` 
 Linux: ~/.config/sublime-text-3/Packages
 OS X: ~/Library/Application Support/Sublime Text 3/Packages
-Windows Regular Install: C:\Users\YourUserName\AppData\Roaming\Sublime Text 3\Packages
+Windows: C:\Users\<insert-username>\AppData\Roaming\Sublime Text 3\Packages
 
 ``` 
 Check your Python3 path with:
